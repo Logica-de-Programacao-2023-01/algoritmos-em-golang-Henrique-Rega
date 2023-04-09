@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+func main() {
+	var altura, peso float64
+	fmt.Println("Insira seu peso e altura respectivamente")
+	fmt.Scan(&peso, &altura)
+	fmt.Println("Seu imc é:", peso/(altura*altura))
+}

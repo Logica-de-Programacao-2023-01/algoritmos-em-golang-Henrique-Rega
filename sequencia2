@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x int64
+	fmt.Print("Insira o número a ser multiplicado:")
+	fmt.Scan(&x)
+	fmt.Println("", x*2, x*3, x*4)
+}

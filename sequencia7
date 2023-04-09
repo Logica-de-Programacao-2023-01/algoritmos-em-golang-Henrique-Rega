@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x int64
+	fmt.Println("insira o número")
+	fmt.Scan(&x)
+	println("o sucessor é", x+1, "e o antecessor é", x-1)
+}

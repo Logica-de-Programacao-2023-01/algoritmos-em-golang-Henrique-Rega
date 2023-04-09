@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x, y, z float64
+	fmt.Println("valores para o cálculo da média:")
+	fmt.Scan(&x, &y, &z)
+	fmt.Println("a média é:", (x*2+y*3+z*5)/10)
+}

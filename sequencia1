@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x, y, z int64
+	fmt.Println("Insira o valor de x y z:")
+	fmt.Scan(&x, &y, &z)
+	fmt.Print("x + y + z =", x+y+z)
+}
